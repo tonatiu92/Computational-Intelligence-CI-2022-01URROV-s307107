@@ -1,1 +1,1 @@
-# ComputerIntelligence
+# Computational Intelligence
