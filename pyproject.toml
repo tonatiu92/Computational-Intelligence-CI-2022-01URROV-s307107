@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "computational-intelligence-ci-2022-01urrov-s307107"
+version = "0.1.0"
+description = ""
+authors = ["tonatiu92 <thomas.osorio6913@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "computational_intelligence_ci_2022_01urrov_s307107"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.4"
+logging = "^0.4.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
