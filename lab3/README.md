@@ -18,6 +18,7 @@ I choosed to define 4 type of strategy two according the state of the nim, the s
 - For this task, I implement a balanced weight between each params (this wheight is the beggining of the task 3.2 that I explain below) 
 - I played against random player and get a result of 65% of success more or less
 - I played against Expert System player and get a result of 18% of success more or less
+- With k variation we see a small decrease of performance
 
 ## Task 3.2: Evolved 
 
@@ -76,6 +77,15 @@ def mutation(g:list):
 See lab2
 
 #### Results
-We manage to improve to 83% of victory against the random adversary
+The evolution show a significantimprovment when I play without k constraints I am winning 90% of the games ungainst the random player,
+It shows a little improvement when we have a variation of k.
+I assume it must be because my rules are not focusing on the k value. I didn't find any interesting idea to implement. 
+Be free to give me some clue
+
+## Task  3.3: MiniMax
+I was hill the all week therefore I didn't manage to spend a lot of time on it. 
+Source: https://realpython.com/python-minimax-nim/
+The basic minmax works well until 4 rows
+
 
 
